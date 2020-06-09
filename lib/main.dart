@@ -32,7 +32,7 @@ class _TimePageState extends State<TimePage> with TickerProviderStateMixin {
     super.initState();
     controller = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 5 + 5),
+      duration: Duration(seconds: 10),
     );
   }
 
